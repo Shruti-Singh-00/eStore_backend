@@ -94,7 +94,7 @@ orders.get('/allorders', checkToken, (req, res) => {
                                 orders.forEach(order => {
                                     allorders.push({
                                         orderId: order.orderId,
-                                        userName: order.orderName,
+                                        userName: order.userName,
                                         address: order.address,
                                         city: order.city,
                                         state: order.state,
